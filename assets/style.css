@@ -48,6 +48,7 @@ body {
     justify-content:center;
     align-items:center;
 }
+/* I used the card codes from w3 school*/
 .card {
     display: inline-block;
     justify-content: center;
@@ -60,12 +61,6 @@ body {
     color: #2a7c71;
     border: 20px;
     padding: 20px;
-    margin: 20px;
-  }
-  .container {
-    box-shadow: #080808;
-    padding: 2px 16px;
-    border: 20px;
     margin: 20px;
   }
   
@@ -115,12 +110,15 @@ p {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 }
-
+#linkedin :hover{
+    padding: 10px;
+}
 #contact-section {
     background-color: #f0ead6;
     margin: 30px;
   
   } /*from classes*/
+
   
 @media screen and (max-width:768px){
     .image{
