@@ -2,16 +2,19 @@
     --colorchoose:#2a7c71;
 
 }
-
+/*I created Variables because I will use more than once*/
 
 .header{padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color:var(--colorchoose);
-    color: #ffffff;}
+    color: #080808;}
 
 header{
     display: block;
 }
+
+
+
 nav {
     display:inline-block
    
@@ -23,14 +26,49 @@ nav {
     box-sizing: border-box;
 }
 
+.figure{
+    width: 12%;
+    border-radius:0 15px;
+
+
+
+}
+
 body {
     font-family: Arial, sans-serif;
 }
 .image{
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
 }
-
+.work{
+    display:inline;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.card {
+    display: inline-block;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: #2a7c71;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    color: #2a7c71;
+    border: 20px;
+    padding: 20px;
+    margin: 20px;
+  }
+  .container {
+    box-shadow: #080808;
+    padding: 2px 16px;
+    border: 20px;
+    margin: 20px;
+  }
+  
 .header h1 {
     margin: 0;
 }
@@ -51,9 +89,7 @@ body {
     color: #fff;
     text-decoration: none;
 }
-.section ul li{
-    background-color: var(--colorchoose);
-}
+
 
 section {
     padding: 20px;
@@ -65,16 +101,29 @@ article {
 }
 
 
+
 h2 {
     margin-bottom: 10px;
+    background-color: var(--colorchoose);
+    width: fit-content;
+    padding: 10px;
+   border-radius: 10px
 }
-
 
 p {
     line-height: 1.5;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
 }
+
+#contact-section {
+    background-color: #f0ead6;
+    margin: 30px;
+  
+  } /*from classes*/
+  
 @media screen and (max-width:768px){
     .image{
-        width:50%
+        width:0 50%;
     }
 }
