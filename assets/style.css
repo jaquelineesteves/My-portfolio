@@ -38,9 +38,10 @@ body {
     font-family: Arial, sans-serif;
 }
 .image{
-    height: 400px;
-    width: 500px;
-    border-radius: 20px;
+    position: relative;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px 20px 0 0;
 }
 .work{
     display:inline;
@@ -50,18 +51,33 @@ body {
 }
 /* I used the card codes from w3 school*/
 .card {
-    display: inline-block;
-    justify-content: center;
+    flex: 1 5 200px;
+    display:inline-block;
+    justify-content:space-between;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border: #2a7c71;
   }
+
+  .card.first.work{
+    flex: 2 0 200px;
+
+  }
+
+  .card header {
+    padding: 20px;
+    background: var(--colorchoose);
+    color: #fff;
+    border-radius: 0 0 15px 15px;
+  }
+
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    height: 200px; ;
     color: #2a7c71;
-    border: 20px;
-    padding: 20px;
-    margin: 20px;
+    border: 5px;
+    padding: 5px;
+
   }
   
 .header h1 {
