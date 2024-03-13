@@ -38,45 +38,50 @@ body {
     font-family: Arial, sans-serif;
 }
 .image{
-    position: relative;
+
     height: 300px;
     width: 400px;
     border-radius: 20px 20px 0 0;
+    padding: 10px;
+    background-color: #2a7c71;
 }
-.work{
-    display:inline;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+
+
+.imagen{
+    height: 350px;
+    width: 405px;
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+    background-color: var(--colorchoose)
+
 }
-/* I used the card codes from w3 school*/
+
+
 .card {
-    flex: 1 5 200px;
     display:inline-block;
-    justify-content:space-between;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border: #2a7c71;
   }
 
-  .card.first.work{
-    flex: 2 0 200px;
-
-  }
 
   .card header {
-    padding: 20px;
+    width:400px;
+    padding:20px;
     background: var(--colorchoose);
     color: #fff;
     border-radius: 0 0 15px 15px;
+    
   }
 
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    height: 200px; ;
+    align-content: space-around;
+    height: 400px;
     color: #2a7c71;
     border: 5px;
     padding: 5px;
+    opacity: 0.3;
 
   }
   
@@ -130,14 +135,31 @@ p {
     padding: 10px;
 }
 #contact-section {
+    display: block;
     background-color: #f0ead6;
     margin: 30px;
-  
-  } /*from classes*/
 
   
+  } 
+
+  footer {
+    padding: 20px;
+    text-align: center;
+  }
+
 @media screen and (max-width:768px){
-    .image{
-        width:0 50%;
+    .card{
+        width:0 0 50%;
     }
+   .figure{
+    width: 100px;
+   }
+}
+@media screen and (max-width:430px){
+    .card{
+        width:6 0 50%;
+    }
+   .figure{
+    width: 100px;
+   }
 }
