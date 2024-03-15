@@ -7,13 +7,13 @@ This project was a great adding to my experience in HTML and CSS, it is my first
 I practiced how to add links, add images, about hover, media query, about ID and class, how to use cards and variables.
 
 ## Usage
-It is possible to clink in the nav bar to go to the about me, my work, contact and my linkedin. There's a link to my first application, and a link to my git hub in contacts.
+It is possible to click in the 'nav' bar to go to the about me, my work, contact and my linkedin. There's a link to my first application, and a link to my git hub in contacts.
 
---The google page isn't part my Work, but I added beacuse I dont have lots of works, my number is not correct.
+--The google page isn't part of my Work, but I added beacuse I don't have lots of works, and my phone number is not correct.
 
 
 
-![page demo](./Assets/images/Screenshot.png)
+![page demo](assets/images/Screenshot.png)
     
 
 ## Credits
